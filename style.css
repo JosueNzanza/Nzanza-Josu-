@@ -1,0 +1,157 @@
+html{
+    scroll-behavior: smooth;
+    
+}
+body{
+font-family:sans-serif;
+color: whitesmoke;
+    background-image: url('body.webp');
+    background-repeat:;
+    background-position: right top ; 
+   background-attachment: fixed ;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#navbar{
+    background-color: darkcyan;
+     position:fixed;
+     left: 0;
+     top: -50px;
+   width:  100%;
+   transition:  top 0.3s;
+   border-radius: 0px 0px 0px 15px;
+   overflow:  auto;
+   white-space:  nowrap;
+  
+   
+}
+#navbar a{
+    
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    
+}
+#navbar a:hover{
+    background-color: none;
+    color: black;
+    border-radius: 15px;
+    
+}
+img{
+    width:70%;
+    border-radius:  0px 19px;   
+}
+#one_h{
+    border-style:  solid;
+    border-width: 0px 0px 3px 0px;
+}
+#one{
+color: black;
+    background-color: lightgrey;
+    margin-top:  60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-radius: 15px;
+}
+#two{
+color: black;
+    background-color: lightgrey;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top:  65px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-radius: 15px;
+    
+}
+#two_h{
+    border-style:  solid;
+    border-width: 0px 0px 3px 0px;
+    
+}
+#three_h{
+border-style:  solid;
+    border-width: 0px 0px 3px 0px;
+    
+}
+.junior{
+       font-weight: bolder;
+}
+#three{
+color: black;
+    background-color: lightgrey;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top:  65px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-radius: 15px;
+    
+    
+}
+#four{
+color: black;
+    background-color: lightgrey;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top:  65px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-radius: 15px;
+    
+}
+.fa fa-whatsapp {
+    font-size: 60px;
+    color: black;
+}
+.far fa-copyright{
+    font-size: 60px;
+}
+#fa{
+    color: black;
+}
+#fa:hover {
+    color:  lightslategray;
+}
+}
+.btn{
+    border-radius: 12px;
+   
+}
+#footer{
+   text-align:  center;
+   color: black;
+   background-color: lightgray ;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin-top:  30px;
+   margin-bottom:  65px;
+   border-radius: 17px;
+}
+.footer{
+    position: fixed ;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgray ;
+    color: black;
+    text-align: center;
+    
+    
+}
+.a_footer:hover {
+    color: darkslategray;
+}
