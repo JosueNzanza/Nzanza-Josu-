@@ -1,149 +1,162 @@
-html{
-    scroll-behavior: smooth;
+/*
+Ooooh my God, you are officially a web developper. Go find a job !
+You gotta pay me cause i am your coding supervisor now.
+I made some changes on your codes. If you have any question, send me 100 unité before asking
+Thanks for the comprehesion and erase those comments after reading it
+*/
+
+/*
+MOBILE FIRST
+##################
+*/
+
+html {
+  scroll-behavior: smooth;
 }
 
-body{
-    font-family:sans-serif;
+body {
+  font-family: sans-serif;
 }
 
-main{
-    width:95%;
-    margin:auto;
-}
-#navbar {   
-   background-color: darkcyan;
-   position: fixed;
-   width: 100%;
-   transition: top O.3s;
-   overflow: auto;
-   white-space: nowrap;
-   border-radius: 0 0 0 1.2em;
+main {
+  width: 95%;
+  margin: auto;
+  margin-top: 5em;
 }
 
-#navbar a{   
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 1em;
-    text-decoration: none;
+#navbar {
+  background-color: darkcyan;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  transition: top O.3s;
+  overflow: auto;
+  white-space: nowrap;
+  border-radius: 0 0 0 1.2em;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-#navbar a:hover{
-    background-color: none;
-    color: black;
-    border-radius: 1.2em;
-    
+#navbar a {
+  color: white;
+  text-align: center;
+  padding: 1em;
+  text-decoration: none;
 }
 
-img{
-    width:100%;
-    border-radius:  0px 2em; 
+#navbar a:hover {
+  background-color: none;
+  color: black;
+  border-radius: 1.2em;
 }
 
-section{
-padding-top:0.1em;
+img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 0px 2em;
 }
 
-section .content{
-    margin-top:50px;
-    color: black;
-    background-color: lightgrey;
-    padding:1em 1.5em;
-    border-radius: 15px;
-    margin-top:1em;
+section {
+  padding-top: 0.1em;
 }
 
-section #underline{
-    border-style:  solid;
-    border-width: 0px 0px 3px 0px;
+section .content {
+  margin-top: 50px;
+  color: black;
+  background-color: lightgrey;
+  padding: 1em 1.5em;
+  border-radius: 15px;
+  margin-top: 1em;
 }
 
-.junior{
-       font-weight: bolder;
+section #underline {
+  border-style: solid;
+  border-width: 0px 0px 3px 0px;
 }
 
-.fa fa-whatsapp {
-    font-size: 60px;
-    color: black;
+.junior {
+  font-weight: bolder;
 }
-.far fa-copyright{
-    font-size: 60px;
+
+#contact {
+  text-align: center;
+  color: black;
+  background-color: lightgray;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  border-radius: 17px;
 }
-#fa{
-    color: black;
+
+#contact .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
 }
+
+#whatsapp-icon {
+  font-size: 2em;
+  color: green;
+}
+
+#fa {
+  color: green;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
 #fa:hover {
-    color:  lightslategray;
+  color: lightslategray;
 }
 
-.btn{
-    border-radius: 12px;
-   
+.btn {
+  border-radius: 12px;
 }
-#footer{
-   text-align:  center;
-   color: black;
-   background-color: lightgray ;
-   padding-top: 10px;
-   padding-bottom: 10px;
-   margin-top:  30px;
-   margin-bottom:  65px;
-   border-radius: 17px;
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightgray;
+  text-align: center;
 }
-.footer{
-    position: fixed ;
-    left: 0;
-    bottom: 0;
+
+.footer i {
+  color: black;
+  font-weight: bolder;
+}
+
+/*
+RESPONSIVE DESIGN
+##################
+*/
+
+/*Tablet Screen*/
+@media (min-width: 768px) {
+  section {
     width: 100%;
-    background-color: lightgray ;
-    color: black;
-    text-align: center;
-    
-    
+    margin: auto;
+  }
 }
-@media only screen and (min-width:768px){
-    body{
-        margin: auto;
-    }
-section{
-    margin: 3em 5em;
-    height: auto;
-}
-#navbar {   
-    background-color: darkcyan;
-    position: fixed;
-    width: 100%;
-    transition: top O.3s;
-    overflow: auto;
-   border-radius: 0px;
-   border-style: solid;
-   border-width: 0 0 0 0.5em;
-   border-color: lightgray;   
- }
- #navbar a{   
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding-left: 4em;
-    text-decoration: none;
-}
-img{
-    width:50%;
-    border-radius:  0px 2em; 
-}
-}
-@media only screen and (min-width:768px){
-    
- #navbar a{   
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding-left: 7em;
-    text-decoration: none;
-}
-}
- 
 
-    
-    
+/*Computer Screen*/
+@media (min-width: 1024px) {
+  section {
+    width: 65%;
+    margin: auto;
+  }
+  section .content {
+    display: flex;
+    gap: 3em;
+  }
+}
 
+/*TV Screen*/
+/* Qui va utiliser ton site web à la télévision ?
+kie kie kie kie kie kie kie kie kie kie kie kie
+LAMBA LIA TO KO SALA MEDIA QUERY TE
+*/
