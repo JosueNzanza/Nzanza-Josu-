@@ -1,3 +1,9 @@
+/*
+Ooooh my God, you are officially a web developper. Go find a job !
+You gotta pay me cause i am your coding supervisor now.
+I made some changes on your codes. If you have any question, send me 100 unité before asking
+Thanks for the comprehesion and erase those comments after reading it
+*/
 
 /*
 MOBILE FIRST
@@ -10,6 +16,7 @@ html {
 
 body {
   font-family: sans-serif;
+  
 }
 
 main {
@@ -46,7 +53,7 @@ main {
 
 img {
   width: 100%;
-  max-width: 250px;
+  max-width: 400px;
   border-radius: 0px 2em;
 }
 
